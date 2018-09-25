@@ -3,7 +3,16 @@
     font-size: 2em;
     letter-spacing: 3px;
 }
+.navbar-nav li .active{
+    color: #fff !important;
+    border-radius: 10px;
+    background-color: #29292c !important;
+    transform: scale(1.1) translateY(-4px);
+}
 
+.navbar-brand {
+    letter-spacing: 4px;
+}
 p {
     letter-spacing: 3px;
     text-align: left;

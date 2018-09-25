@@ -1,3 +1,7 @@
+$('body').scrollspy({ target: '#navbar' });
+$('[data-spy="scroll"]').each(function () {
+    var $spy = $(this).scrollspy('refresh')
+});
 // AOS initialization
 $(function() {
     AOS.init();
@@ -6,3 +10,4 @@ $(function() {
 $(window).on('load', function() {
     AOS.refresh();
 });
+
