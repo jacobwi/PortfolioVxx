@@ -42,15 +42,9 @@ body {
     -webkit-mask-size: 200%;
     animation: shine 2s infinite;
 }
-
-@-webkit-keyframes shine {
-    from {
-        -webkit-mask-position: 150%;
-    }
-
-    to {
-        -webkit-mask-position: -50%;
-    }
+.header {
+    text-align: center;
+    font-size: 20px;
 }
 
 .header:after {
@@ -59,6 +53,7 @@ body {
     left: 0;
     display: inline-block;
     height: 1em;
+    width: 100%;
     border-bottom: 1px solid;
     margin-top: 10px;
     opacity: 0;
@@ -72,10 +67,6 @@ body {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
-}
-.header {
-    text-align: center;
-    font-size: 20px;
 }
 
 .navbar-brand {
