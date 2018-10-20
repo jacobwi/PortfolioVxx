@@ -245,3 +245,25 @@ div.etc-tag {
     color: lightgray;
 }
 /*end of Terminal*/
+
+i:hover {
+    font-size: 40px;
+    color: gainsboro;
+}
+
+.footer-work {
+    margin-top: 20px;
+    background-color: transparent !important;
+    border-radius: 2px;
+    border: solid;
+    color: black !important; 
+    font-size: 18px;
+    letter-spacing: 4px ;
+}
+
+.footer-work:hover {
+    border-color: deepskyblue;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+}
